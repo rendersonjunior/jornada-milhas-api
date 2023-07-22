@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface DepoimentoRepository extends JpaRepository<Depoimento, Long> {
+    void update(Depoimento updateDepoimento);
 }

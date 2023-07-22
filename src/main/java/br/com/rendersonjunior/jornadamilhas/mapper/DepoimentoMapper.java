@@ -10,4 +10,5 @@ public interface DepoimentoMapper {
     Depoimento fromDTO(DepoimentoDTO depoimentoDTO);
 
     DepoimentoDTO toDTO(Depoimento depoimento);
+
 }
